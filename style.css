@@ -30,3 +30,13 @@ DIV.row:nth-child(2n) H2{
 	animation-name:nav;
 	animation-duration:250ms;
 }
+.well{
+	Background: #fff;
+	Border-radius: 0;
+	Border: 0;
+	Border-bottom: 2px solid red;
+	Box-sizing: border-box;
+}
+.row:nth-of-type(2n) .well{
+	border-bottom: 2px solid blue;
+}
