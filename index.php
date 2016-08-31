@@ -1,56 +1,7 @@
 <!DOCTYPE HTML>
 	<HEAD>
 		<TITLE>CEL BITS Pilani</TITLE>
-		<!--Stylesheets-->
-		<LINK REL="stylesheet" HREF="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-		<LINK REL="STYLESHEET" HREF="style.css" />
-		
-		<!--Favicon-->
-		<LINK REL="ICON" HREF="favicon.jpg" />
-		
-		<!--Meta Tags-->
-		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
-		<META NAME="Keywords" CONTENT="CEL, conquest, BITS Pilani, entrepreneurship, business plan competition, conclave, Global Conference, startup, ventures, mentors, August 2010, participate, international bplan competition, incubation" />
-		<META NAME="Description" CONTENT="Center for Entrepreneurial Leadership" />
-		<META NAME="Designer" CONTENT="Chinmay Pandhare, Alex Mathai" />
-		<META NAME="Viewport" CONTENT="width=device-width, iniial-scale=1" />
-		
-	</HEAD>
-	
-	<BODY>
-		<NAV CLASS="navbar navbar-default navbar-fixed-top">
-			<DIV CLASS="close">
-				<SPAN CLASS="glyphicon glyphicon-resize-vertical" ARIA-HIDDEN="true" STYLE="position:fixed; right:10px; top:15px; display:none;">
-			</DIV>
-			<DIV CLASS="container text-center">
-				<DIV CLASS="navbar-header">
-					<A CLASS="navbar-brand" HREF="#" STYLE="width:100%; min-width:169px">CEL | BITS Pilani</A>
-				</DIV>
-				<UL CLASS="nav navbar-nav">
-					<LI CLASS="active"><A HREF="#">Home</A></LI>
-					<LI><A HREF="#">About</A></LI>
-					<LI><A HREF="#">Projects</A></LI> 
-					<LI><A HREF="#">Startups</A></LI>
-					<LI><A HREF="#">Conatct Us</A></LI>
-					<LI><A HREF="#">Associate</A></LI>
-				</UL>
-			</DIV>
-		</NAV>
-		<NAV CLASS="navbar navbar-default" STYLE="opacity:0">
-			<DIV CLASS="container">
-				<DIV CLASS="navbar-header">
-					<A CLASS="navbar-brand" HREF="#">CEL | BITS Pilani</A>
-				</DIV>
-				<UL CLASS="nav navbar-nav">
-					<LI CLASS="active"><A HREF="#">Home</A></LI>
-					<LI><A HREF="#">About</A></LI>
-					<LI><A HREF="#">Projects</A></LI> 
-					<LI><A HREF="#">Startups</A></LI>
-					<LI><A HREF="#">Conatct Us</A></LI>
-					<LI><A HREF="#">Associate</A></LI>
-				</UL>
-			</DIV>
-		</NAV>
+<? $home = 1; require 'top.php'; $defined=""; ?>
 		<DIV CLASS="container header">
 			<DIV CLASS="jumbotron">
 				<NOSCRIPT><H2>Centre for Entrepreneurial Leadership<BR />BITS Pilani</H2></NOSCRIPT>
@@ -59,8 +10,8 @@
 		</DIV>
 		<DIV CLASS="container text-justify">
 			<DIV CLASS="row">
-				<DIV CLASS="col-xs-0 col-sm-3 col-md-2"></DIV>
-				<DIV CLASS="col-xs-12 col-sm-9 col-md-10">
+				<DIV CLASS="col-xs-0 col-sm-3 col-md-2 matchheight"></DIV>
+				<DIV CLASS="col-xs-12 col-sm-9 col-md-10 matchheight">
 					<DIV CLASS="well">
 						<H2>About</H2>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue hendrerit ex commodo fringilla. Aliquam erat volutpat. Quisque dignissim, odio nec lobortis consectetur, diam arcu dapibus arcu, nec scelerisque massa ligula sed lorem. Etiam dictum vehicula augue non lacinia. Integer at sapien vitae dui dapibus rutrum. Nunc mattis nibh ac.
@@ -69,18 +20,18 @@
 				</DIV>
 			</DIV>
 			<DIV CLASS="row">
-				<DIV CLASS="col-xs-12 col-sm-9 col-md-10">
+				<DIV CLASS="col-xs-12 col-sm-9 col-md-10 matchheight">
 					<DIV CLASS="well">
 						<H2>Projects</H2>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue hendrerit ex commodo fringilla. Aliquam erat volutpat. Quisque dignissim, odio nec lobortis consectetur, diam arcu dapibus arcu, nec scelerisque massa ligula sed lorem. Etiam dictum vehicula augue non lacinia. Integer at sapien vitae dui dapibus rutrum. Nunc mattis nibh ac.
 						<SPAN CLASS="more"><A HREF="#">Read More <SPAN CLASS="glyphicon glyphicon-chevron-right"></SPAN></A></SPAN>
 					</DIV>
 				</DIV>
-				<DIV CLASS="col-xs-0 col-sm-3 col-md-2"></DIV>
+				<DIV CLASS="col-xs-0 col-sm-3 col-md-2 matchheight"></DIV>
 			</DIV>
 			<DIV CLASS="row">
-				<DIV CLASS="col-xs-0 col-sm-3 col-md-2"></DIV>
-				<DIV CLASS="col-xs-12 col-sm-9 col-md-10">
+				<DIV CLASS="col-xs-0 col-sm-3 col-md-2 matchheight"></DIV>
+				<DIV CLASS="col-xs-12 col-sm-9 col-md-10 matchheight">
 					<DIV CLASS="well">
 						<H2>Startups</H2>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue hendrerit ex commodo fringilla. Aliquam erat volutpat. Quisque dignissim, odio nec lobortis consectetur, diam arcu dapibus arcu, nec scelerisque massa ligula sed lorem. Etiam dictum vehicula augue non lacinia. Integer at sapien vitae dui dapibus rutrum. Nunc mattis nibh ac.
@@ -89,18 +40,18 @@
 				</DIV>
 			</DIV>
 			<DIV CLASS="row">
-				<DIV CLASS="col-xs-12 col-sm-9 col-md-10">
+				<DIV CLASS="col-xs-12 col-sm-9 col-md-10 matchheight">
 					<DIV CLASS="well">
 						<H2>Contact Us</H2>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue hendrerit ex commodo fringilla. Aliquam erat volutpat. Quisque dignissim, odio nec lobortis consectetur, diam arcu dapibus arcu, nec scelerisque massa ligula sed lorem. Etiam dictum vehicula augue non lacinia. Integer at sapien vitae dui dapibus rutrum. Nunc mattis nibh ac.
 						<SPAN CLASS="more"><A HREF="#">Read More <SPAN CLASS="glyphicon glyphicon-chevron-right"></SPAN></A></SPAN>
 					</DIV>
 				</DIV>
-				<DIV CLASS="col-xs-0 col-sm-3 col-md-2"></DIV>
+				<DIV CLASS="col-xs-0 col-sm-3 col-md-2 matchheight"></DIV>
 			</DIV>
 			<DIV CLASS="row">
-				<DIV CLASS="col-xs-0 col-sm-3 col-md-2"></DIV>
-				<DIV CLASS="col-xs-12 col-sm-9 col-md-10">
+				<DIV CLASS="col-xs-0 col-sm-3 col-md-2 matchheight"></DIV>
+				<DIV CLASS="col-xs-12 col-sm-9 col-md-10 matchheight">
 					<DIV CLASS="well">
 						<H2>Associate</H2>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue hendrerit ex commodo fringilla. Aliquam erat volutpat. Quisque dignissim, odio nec lobortis consectetur, diam arcu dapibus arcu, nec scelerisque massa ligula sed lorem. Etiam dictum vehicula augue non lacinia. Integer at sapien vitae dui dapibus rutrum. Nunc mattis nibh ac.
@@ -110,12 +61,4 @@
 			</DIV>
 		</DIV>
 		
-		<FOOTER ID="footer" CLASS="text-center">
-			&copy; 2016 CENTER FOR ENTREPRENEURIAL LEADERSHIP, BITS PILANI  <BR/>  DESIGN BY CHINMAY PANDHARE & ALEX MATHAI.
-		</FOOTER>
-		<!--Scripts-->
-		<SCRIPT SRC="http://code.jquery.com/jquery-latest.min.js"></SCRIPT>
-		<SCRIPT SRC="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></SCRIPT>
-		<SCRIPT SRC="script.js"></SCRIPT>
-	</BODY>
-</HTML>	
+<? require 'bottom.php'; ?>
